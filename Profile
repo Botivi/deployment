@@ -1,0 +1,2 @@
+web: gunicorn ms-app:app
+init: FLASK_APP=ms-app.py flask init_db
