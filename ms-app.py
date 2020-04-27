@@ -1,4 +1,4 @@
-#!/usr/bin env python3
+#!/usr/bin env python
 # -*- coding: utf-8 -*-
 """
 Created on Sat Apr 18 11:43:45 2020
@@ -15,4 +15,4 @@ def home():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
